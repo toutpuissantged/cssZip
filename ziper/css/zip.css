@@ -1,0 +1,67 @@
+#txta{
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    margin: 5% 5%;
+    text-align: justify;
+}
+*{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#btn-1{
+    margin: 5% 35%;
+    width: 30%;
+}
+@keyframes f{
+    10%{color: rgba(0, 0, 0,0)}
+}
+#perf{
+    background-color: darkgreen;
+    width: 70%;
+    text-align: center;
+    margin: 0px 16%;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 0px;
+}
+img{
+    width: 50px;
+    align-content: center;
+    margin: 0% 10%;
+    filter: invert(1);
+}
+#img-cont{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    margin: 5% 10%;
+}
+@keyframes txt{
+    0%,100%{ background-color: rgb(255, 255, 255); transform: rotateY( 0turn);}
+    50%{ background-color: rgb(0, 0, 0); transform: rotateY( 0.5turn );}
+}
+#folder{
+    width: 20%;
+}
+#flexo{
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    padding: 3%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+h1{
+    font-weight: 800;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#p{
+    margin-left: 25%;
+    margin-right: 25%;
+}
